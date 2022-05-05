@@ -8,7 +8,7 @@ header
 {
     width:100%;
     height:100vh;
-    background-image:url('/pic/hklh.jpg.jfif'),url('/pic/rock.pnj.jpg'); 
+    background-image:url('pic/hklh.jpg.jfif'),url('pic/rock.pnj.jpg'); 
     
    
     background-size: 20% 60%,cover;
@@ -175,7 +175,7 @@ section
 {
     width:100%;
     height: 100vh;
-    background: url('/pic/black.jpg');
+    background: url('pic/black.jpg');
     margin-top: 40px;
 }
 .sectionheading h1
