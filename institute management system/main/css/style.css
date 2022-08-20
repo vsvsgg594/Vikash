@@ -1,0 +1,108 @@
+*
+{
+    margin:0;
+    padding:0;
+
+}
+.container
+{
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/b.png.jfif');
+    background-size: cover;
+    background-repeat:no-repeat;
+   
+
+}
+header
+{
+    width:100%;
+    height:10%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+   /* border:3px solid green;*/
+}
+.navbar
+{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+   /* border: 3px solid red;*/
+}
+.navbar h3
+{
+    font-size:30px;
+    color:blue;
+    text-transform:capitalize;
+}
+.sub-conatiner
+{
+    width:100%;
+    height:90%;
+  
+}
+.sub-conatiner h4
+{
+    font-size: 20px;
+    text-transform: capitalize;
+    color:blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.child-class
+{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+
+}
+form
+{
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    /*border:3px solid blue;*/
+}
+.field
+{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+  /*border:2px solid gold;*/
+}
+.field input
+{
+    width:50%;
+    height:60%;
+    font-size:20px;
+    border-radius:10px;
+
+}
+.btn
+{
+    width:100px;
+    height:40px;
+    color:white;
+    background-color: blue;
+    border-radius:10px;
+    cursor: pointer;
+}

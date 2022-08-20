@@ -1,0 +1,207 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container
+{
+    width:100%;
+    height:100vh;
+
+}
+.head
+{
+    width:100%;
+    height:40%;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(7, 37, 49);
+}
+.picconatiner
+{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.mypic
+{
+    width:50%;
+    height:10%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+.mypic img
+{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius:200px;
+}
+.mypic h3
+{
+    font-size:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:white;
+}
+.infocontainer
+{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    
+}
+.textinfocomntainer
+{
+    width:100%;
+    height:50%;
+    display:flex;
+    flex-direction: row;
+
+}
+.textinfomainconatiner
+{
+    width:30%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 50px black;
+    margin:20px;
+    border-radius:10px;
+    justify-content: center;
+
+}
+.textinfocomntainer :hover
+{
+    color:white;
+    background-color: red;
+    transition: 0.5s;
+}
+.textinfomainconatiner h1
+{
+    font-size:30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+.textinfomainconatiner p
+{
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin-top:10px;
+    line-height: 30px;
+    padding:5px;
+}
+.buttonconatainer
+{
+    width:100%;
+    height:25%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-top:40px;
+
+}
+#btn1
+{
+    width:100px;
+    height:40px;
+    font-size:15px;
+    border-radius: 10px;
+    color:white;
+    background-color: rgb(19, 88, 116);
+    outline: none;
+    border:none;
+    cursor: pointer;
+    
+}
+.details
+{
+    width:100%;
+    height:20%;
+    display:flex;
+    flex-direction:column;
+
+}
+.detailsaboutprofession
+{
+    width:100%;
+    height:10%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+  
+}
+.hire1
+{
+    margin-bottom:100px;
+    color:blue;
+
+}
+.hire h2
+{
+    font-size:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    color:blue;
+}
+.detailsaboutprojects
+{
+   width:100%;
+   height:10%;
+   display:flex;
+   flex-direction:column; 
+}
+.detailsaboutprojects h2
+{
+    font-size:30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin-bottom:5px;
+}
+.p1
+{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.p1 p
+{
+    text-align: justify;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:5px 0px;
+}
+.btn3
+{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:5px;
+}
+.show-btn
+{
+    width:150px;
+    height:40px;
+    font-size:20px;
+    text-align: center;
+    margin-top:5px;
+    background-color: blue;
+    color:white;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom:5px;
+}

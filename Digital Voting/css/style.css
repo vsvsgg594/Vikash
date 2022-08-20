@@ -1,0 +1,405 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+/* code for navbar is start from here  */
+
+.navbar
+{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    border: 2px solid greenyellow;
+}
+
+.navbar h2
+{
+    width: 70%;
+    height: 100%;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout-btn
+{
+    width: 30%;
+    height: 100%;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout-btn form
+{
+    width: 30%;
+    height: 100%;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout-btn form input
+{
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 136, 255);
+    border: 2px solid rgb(0, 136, 255);
+    border-radius: 5px;
+}
+.logout-btn form input:hover
+{
+    background-color: rgb(0, 136, 255);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(28, 0, 187);
+    transition-duration: 0.5s;
+}
+
+/* navbar code ends from here  */
+
+.detail-container
+{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid green;
+}
+
+/* ############### code for user info #########  */
+
+.user-info
+{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.user-icon
+{
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid rgb(4, 0, 255); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.user
+{
+    width: 100px;
+    height: 100%;
+    /* border: 2px solid rgb(255, 7, 7); */
+    /* background-color: white; */
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.user img
+{
+    height: inherit;
+    width: auto;
+}
+
+.total-info
+{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid rgb(0, 255, 255); */
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name
+{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;   
+}
+
+.user-name p
+{
+    font-weight: 800;
+    color: rgb(0, 136, 255);
+    text-transform: uppercase;
+}
+
+.user-name p span
+{
+    font-weight: bold;
+    color: rgb(32, 68, 99);
+    text-transform: capitalize;    
+}
+
+.user-mobile
+{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid rgb(157, 255, 0); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    padding: 0 10px; 
+}
+
+.user-mobile p
+{
+    font-weight: 800;
+    color: rgb(0, 136, 255);
+    text-transform: uppercase;
+}
+
+.user-mobile p span
+{
+    font-weight: bold;
+    color: rgb(32, 68, 99);
+    text-transform: capitalize;    
+}
+
+.user-address
+{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid rgb(0, 255, 149); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;   
+}
+
+.user-address p
+{
+    font-weight: 800;
+    color: rgb(0, 136, 255);
+    text-transform: uppercase;
+}
+
+.user-address p span
+{
+    font-weight: bold;
+    color: rgb(32, 68, 99);
+    text-transform: capitalize;    
+}
+
+.user-vote-status
+{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid rgb(234, 0, 255); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;   
+}
+
+.user-vote-status p
+{
+    font-weight: 800;
+    color: rgb(0, 136, 255);
+    text-transform: uppercase;
+}
+
+.user-vote-status p span
+{
+    font-weight: bold;
+    color: rgb(32, 68, 99);
+    text-transform: capitalize;    
+}
+
+/* code for party info  */
+
+.party-info
+{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid rgb(255, 0, 85); */
+    /* display: flex;
+    flex-direction: column; */
+    overflow-y: scroll;
+}
+
+/* scrollbar customization */
+.party-info::-webkit-scrollbar
+{
+    background-color: transparent;
+    width: 10px;
+}
+
+.party-info::-webkit-scrollbar-track
+{
+    background-color: rgb(255, 0, 0);
+    border-radius: 25px;
+}
+
+.party-info::-webkit-scrollbar-thumb
+{
+    background-color: aqua;
+    border-radius: 25px;
+}
+
+/* party code continue */
+.party-info-container
+{
+    width: 90%;
+    height: 150px;
+    /* border: 2px solid rgb(234, 0, 255); */
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px rgb(107, 27, 27);
+}
+
+.party-text-container
+{
+    width: 70%;
+    height: 100%;
+    /* border: 2px solid rgb(0, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+.party-name
+{
+    width: 100%;
+    height: 33%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.party-name p
+{
+    color: rgb(32, 68, 99);
+    text-transform: capitalize;
+}
+
+.party-name p span
+{
+    font-weight: 800;
+    color: rgb(0, 136, 255);
+    text-transform: uppercase;
+}
+
+.party-symbol-name
+{
+    width: 100%;
+    height: 33%;
+    /* border: 2px solid rgb(0, 255, 0); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.party-symbol-name p
+{
+    color: rgb(32, 68, 99);
+    text-transform: capitalize;
+}
+
+.party-symbol-name p span
+{
+    font-weight: 800;
+    color: rgb(0, 136, 255);
+    text-transform: uppercase;
+}
+
+.party-vote-btn
+{
+    width: 100%;
+    height: 33%;
+    /* border: 2px solid rgb(0, 83, 160); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.party-vote-btn button
+{
+    width: 100px;
+    height: 70%;
+    background-color: rgb(26, 221, 0);
+    border: 1px solid transparent;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.party-vote-btn button:hover
+{
+    background-color: rgb(15, 77, 7);
+    border: 1px solid rgb(46, 235, 46);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+.party-logo-container
+{
+    width: 30%;
+    height: 100%;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    padding: 10px;
+}
+
+.party-logo-container img
+{
+    height: inherit;
+    width: auto;
+}
