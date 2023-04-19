@@ -1,8 +1,8 @@
 import java.util.*;
 public class PalidromString
 {
-    public static void main(String[] args){
-        String str="abbav";
+    public static void main(String args[]){
+        String str="abba";
         String rev="";
         for(int i=str.length()-1;i>=0;i--){
             rev=rev+str.charAt(i);
@@ -13,4 +13,5 @@ public class PalidromString
             System.out.print("string is not palidrom");
         }
     }
+
 }
